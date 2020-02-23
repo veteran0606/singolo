@@ -1,0 +1,250 @@
+@font-face{
+font-family: "Lato";
+src: url("../SINGOLO/assets/Lato-Bold.eot");
+src: url("../SINGOLO/assets/Lato-Bold.eot?iefix") format("eot"),
+url("../SINGOLO/assets/Lato-Bold.woff") format("woff"),
+url("../SINGOLO/assets/Lato-Bold.ttf") format("truetype"),
+url("../SINGOLO/assets/Lato-Bold.svg#webfont") format("svg");
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face{
+font-family: "Lato";
+src: url("../SINGOLO/assets/Lato-Regular.eot");
+src: url("../SINGOLO/assets/Lato-Regular.eot?iefix") format("eot"),
+url("../SINGOLO/assets/Lato-Regular.woff") format("woff"),
+url("../SINGOLO/assets/Lato-Regular.ttf") format("truetype"),
+url("../SINGOLO/assets/Lato-Regular.svg#webfont") format("svg");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face{
+font-family: "Lato";
+src: url("../SINGOLO/assets/Lato-Black.eot");
+src: url("../SINGOLO/assets/Lato-Black.eot?iefix") format("eot"),
+url("../SINGOLO/assets/Lato-Black.woff") format("woff"),
+url("../SINGOLO/assets/Lato-Black.ttf") format("truetype"),
+url("../SINGOLO/assets/Lato-Black.svg#webfont") format("svg");
+font-weight: bold;
+font-style: normal;
+}
+
+
+
+
+*{
+	box-sizing: border-box;
+	margin: 0, auto;
+	padding: 0;
+}
+
+.body{
+	margin: 0 auto;
+	min-width: 360px;
+    max-width: 1020px;
+}
+
+.header{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center; 
+	background-color: black;
+	height: 85px;
+}
+.logo {
+	margin-left: 40px;
+}
+.hspac{
+	display: flex;
+	justify-content: space-between;
+	flex: 2;
+	margin-right: 40px;
+}
+.home, .services, .portfolio, .about, .contact{
+	color: white;
+	font-family: 'Lato', bold ;
+	font-size: 0.750em;
+	margin-left: 30px;
+}
+.articls h1{
+	font-family: 'Lato' ;	
+	font-weight: 900;
+	color: #666d89;
+}
+.ph1{
+	font-family: 'Lato', Regular ;
+	font-size: 1em;
+	margin: 24px 0 -10px 0;
+	color: #767e9e;
+}
+.note h2{
+	font-family: 'Lato', bold ;
+	font-size: 1.125em;	
+	color: #666d89;
+	margin: -4px 0 -4px 0;
+
+}
+.note p{
+	font-family: 'Lato', Regular ;
+	font-size: 0.750em;	
+	color: #767e9e;
+}
+
+
+.home:hover, .services:hover,
+.portfolio:hover, .about:hover, .contact:hover{    
+    color: #ef6c64; 
+    cursor: pointer;
+}
+
+.Header_Bottom{
+	height: 5px;
+	background-color: #323746;
+}
+
+.color{	
+	height: 600px;
+	position: absolute;
+	width: 1020px;
+	background-color: #ef6c64;
+}
+
+.chev1:hover, .chev:hover{
+    background: #786b59;   
+    cursor: pointer; 
+}
+
+.chev1{
+	position: relative;	
+	transform: rotate(180deg);
+	bottom: 920px;
+	left: 964px;	
+	width: 20px;
+}
+
+.chev{
+	position: relative;
+	top: 280px;
+	left: 40px;	
+	width: 20px;
+}
+
+.phon_1{
+	position: relative;
+	top: -50px;
+	left: 110px;	
+}
+
+.phon_2{
+	position: relative;
+	bottom: 550px;
+	left: 355px;	
+}
+
+.Bg_Bottom{
+	height: 5px;
+    background-color: #ea666b;
+    position: relative;
+    top: 599px;	
+    margin-bottom: 595px;
+}
+
+.articls{
+	background-color: #f2f2f2;
+	height: 496px;
+	padding: 67px 40px 0 40px;
+}
+
+.note{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 52px;
+
+}
+
+.colomn1{
+	display: flex;
+	flex-direction: column;
+}
+
+.hp{
+	width: 220px;
+	margin-left: 20px;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.row_d{
+	margin-top: 24px;
+}
+
+.ellipse{
+	margin: 0 0 -48px 0px;
+}
+
+.pen{
+	margin-left: 13px;
+}
+
+.phone{
+	margin-left: 18px;
+}
+
+.star{
+	margin-left: 14px;
+}
+
+.heart{
+	margin: 2px 0 0 14px ;	
+}
+
+.bubble{
+	margin-left: 15px;
+}
+
+.bulb{
+	margin-left: 18px;
+}
+
+.foot{
+	height: 5px;
+	background-color: #ffffff;
+}
+
+
+/*.chev_pic{
+	position: relative;
+	top: 280px;
+	left: 40px;	
+}
+.chev_pic1{
+	position: relative;	
+	transform: rotate(180deg);
+	bottom: 920px;
+	left: 964px;	*/
+	/*.row1{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	align-items: center;
+	
+}
+.row2{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+}*/
+	/*display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;*/
